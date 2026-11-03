@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Datasets
+RFMiD/
+datasets/
+data/
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# Temporary files
+.ipynb_checkpoints/
+.cache/
+.DS_Store
+
+# Credentials
+.env
+*.pem
+
+# Exclude large EyeQ dataset
+EyeQ/

@@ -1,0 +1,12 @@
+# Use a compatible PyTorch/torchvision pair; install an NVIDIA CUDA build
+# separately if your hardware/runtime supports it: https://pytorch.org/get-started/locally/
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+pillow
+opencv-python-headless
+matplotlib
+iterative-stratification
+tqdm

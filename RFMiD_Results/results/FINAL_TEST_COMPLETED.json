@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "n_test": 640,
+  "frozen_experiment_sha256": "48e34e38a0dfc563b77772da097ee87d57e43450409dc9b0794c62e83c119b3e",
+  "clean_metrics": "C:\\Users\\aa22598\\Downloads\\RFMiD_VSCode_Local_Project\\RFMiD_VSCode_Local_Project\\RFMiD_VSCode_Local\\RFMiD\\revised_supervisor_experiments_v2\\m1_m2_m3_research\\final_test_clean\\overall_metrics.csv",
+  "degraded_metrics": "C:\\Users\\aa22598\\Downloads\\RFMiD_VSCode_Local_Project\\RFMiD_VSCode_Local_Project\\RFMiD_VSCode_Local\\RFMiD\\revised_supervisor_experiments_v2\\m1_m2_m3_research\\final_test_robustness\\robustness_comparison.csv",
+  "warning": "Test was evaluated once after freezing; do not tune against these results."
+}

@@ -1,0 +1,14 @@
+{
+  "m1_checkpoint": "C:\\Users\\aa22598\\Downloads\\RFMiD_VSCode_Local_Project\\RFMiD_VSCode_Local_Project\\RFMiD_VSCode_Local\\RFMiD\\revised_supervisor_experiments_v2\\sklearn_grid_search\\swin_t_cropped_flip_only_lr1e-04\\best.pt",
+  "m1_sha256": "9515c8bc40c6196fc02394c873d8a2d0d64bb2bd7832e42c49abfefc42f1c9b1",
+  "eyeq_quality_checkpoint": "C:\\Users\\aa22598\\Downloads\\RFMiD_VSCode_Local_Project\\RFMiD_VSCode_Local_Project\\RFMiD_VSCode_Local\\RFMiD\\revised_supervisor_experiments_v2\\m1_m2_m3_research\\eyeq_quality.pt",
+  "eyeq_sha256": "bca75afaacd13dc1376d7b367912cd83976a57972e9e9d27eef9a7e6b2a119ab",
+  "m2_checkpoint": "C:\\Users\\aa22598\\Downloads\\RFMiD_VSCode_Local_Project\\RFMiD_VSCode_Local_Project\\RFMiD_VSCode_Local\\RFMiD\\revised_supervisor_experiments_v2\\m1_m2_m3_research\\m2_quality_fusion.pt",
+  "m2_sha256": "e13436d5c25c2fdc32185709de21b71cafdb5ab3e8f46fd691865406af9aeba5",
+  "no_quality_checkpoint": "C:\\Users\\aa22598\\Downloads\\RFMiD_VSCode_Local_Project\\RFMiD_VSCode_Local_Project\\RFMiD_VSCode_Local\\RFMiD\\revised_supervisor_experiments_v2\\m1_m2_m3_research\\m2_no_quality_ablation.pt",
+  "no_quality_sha256": "7bee0ad3600dcb1b6df96e797323654db7f4738879d87dffecf2bb9c9a944573",
+  "m3_settings": "C:\\Users\\aa22598\\Downloads\\RFMiD_VSCode_Local_Project\\RFMiD_VSCode_Local_Project\\RFMiD_VSCode_Local\\RFMiD\\revised_supervisor_experiments_v2\\m1_m2_m3_research\\m3_calibration.json",
+  "m1_grid_selection_macro_ap_from_user": null,
+  "test_accessed": false,
+  "feature_cache_source_fingerprint": "d52f7aea901341fa452d1ae1733c8a2a6725173d70051f76b1843b8e1c8472fd"
+}

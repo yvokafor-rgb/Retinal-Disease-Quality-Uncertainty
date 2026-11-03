@@ -1,0 +1,49 @@
+{
+  "macro_f1": 0.761090975655813,
+  "balanced_accuracy": 0.7806885303104388,
+  "accuracy": 0.8281499202551834,
+  "n_val": 2508,
+  "class_order": [
+    "good",
+    "usable",
+    "reject"
+  ],
+  "confusion_matrix": [
+    [
+      1462,
+      203,
+      4
+    ],
+    [
+      52,
+      275,
+      48
+    ],
+    [
+      24,
+      100,
+      340
+    ]
+  ],
+  "per_class": {
+    "good": {
+      "precision": 0.9505851755526658,
+      "recall": 0.8759736369083283,
+      "f1-score": 0.9117555347676957,
+      "support": 1669.0
+    },
+    "usable": {
+      "precision": 0.4757785467128028,
+      "recall": 0.7333333333333333,
+      "f1-score": 0.577124868835257,
+      "support": 375.0
+    },
+    "reject": {
+      "precision": 0.8673469387755102,
+      "recall": 0.7327586206896551,
+      "f1-score": 0.794392523364486,
+      "support": 464.0
+    }
+  },
+  "eyeq_validation_only": true
+}

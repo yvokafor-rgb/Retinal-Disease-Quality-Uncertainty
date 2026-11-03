@@ -1,0 +1,43 @@
+{
+  "signature": "d1208867ba0d73e29e93537505bc61712a1f4656360aed18cbdf3094fdba482a",
+  "class_order": [
+    "DR",
+    "MH",
+    "ODC",
+    "TSLN",
+    "DN",
+    "MYA",
+    "ARMD"
+  ],
+  "temperatures": [
+    1.8101009283496485,
+    1.8270152024669062,
+    1.8781063387584374,
+    1.6105551010322445,
+    2.1051415938848743,
+    1.201147316609577,
+    1.8366325949179183
+  ],
+  "thresholds": [
+    0.30000000000000004,
+    0.18,
+    0.21000000000000002,
+    0.79,
+    0.75,
+    0.5,
+    0.56
+  ],
+  "referral_score_threshold": 0.4766253508041375,
+  "mc_variance_scale": 0.00010854548757377726,
+  "target_coverage": 0.8,
+  "mc_passes": 20,
+  "m1_sha256": "9515c8bc40c6196fc02394c873d8a2d0d64bb2bd7832e42c49abfefc42f1c9b1",
+  "m2_sha256": "e13436d5c25c2fdc32185709de21b71cafdb5ab3e8f46fd691865406af9aeba5",
+  "quality_sha256": "bca75afaacd13dc1376d7b367912cd83976a57972e9e9d27eef9a7e6b2a119ab",
+  "calibration_n": 192,
+  "raw_ece_calibration": 0.04439076559249366,
+  "temp_ece_calibration": 0.03639064960503597,
+  "raw_brier_calibration": 0.043247056131783625,
+  "temp_brier_calibration": 0.03860150754684112,
+  "note": "Parameters fitted on calibration set. These calibration metrics are not independent performance estimates."
+}
