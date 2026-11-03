@@ -1,4 +1,4 @@
-# 🩺 Retinal Disease Detection with Quality Assessment & Uncertainty Estimation
+# Retinal Disease Detection with Quality Assessment & Uncertainty Estimation
 
 ### A research-oriented computer vision pipeline for more reliable retinal fundus image analysis
 
@@ -8,11 +8,11 @@ This repository investigates **multi-label retinal disease classification**, **r
 
 ---
 
-## 📖 Overview
+## Overview
 
 Retinal fundus photographs can be challenging to interpret automatically when images are blurry, poorly illuminated, compressed, or otherwise degraded. A classifier can produce a confident prediction even when the image is insufficiently clear. This project investigates disease classification alongside quality and uncertainty analysis, with a focus on reliability rather than accuracy alone.
 
-## 🎯 Research objectives
+## Research objectives
 
 - Prepare retinal fundus images for consistent model training and evaluation.
 - Train and evaluate multi-label retinal disease classification models using RFMiD.
@@ -21,7 +21,7 @@ Retinal fundus photographs can be challenging to interpret automatically when im
 - Measure behavior under simulated image degradations.
 - Explore risk–coverage curves and referral-oriented decision rules.
 
-## 🏗️ Conceptual system architecture
+## Conceptual system architecture
 
 ```text
 Retinal fundus images (RFMiD / EyeQ)
@@ -50,7 +50,7 @@ Retinal fundus images (RFMiD / EyeQ)
 
 This diagram describes the research workflow; see the implementation and experiment files for the exact components executed.
 
-## 🚀 Project components
+## Project components
 
 | Component | Purpose | Implementation entry point |
 | --- | --- | --- |
@@ -60,7 +60,7 @@ This diagram describes the research workflow; see the implementation and experim
 | Deployment prototype | Application / inference experiments | `src/model_deployment.py` |
 | Experiments | Save quantitative results and logs | `results/RFMiD_Results/` |
 
-## 📁 Repository structure
+## Repository structure
 
 ```text
 Retinal-Disease-Quality-Uncertainty/
@@ -89,7 +89,7 @@ Large datasets and model weights are intentionally excluded from Git. The struct
 
 For exact library versions, see [`requirements.txt`](requirements.txt).
 
-## 📊 Experimental evaluation
+## Experimental evaluation
 
 The available experiment exports may include:
 
@@ -110,7 +110,7 @@ The available experiment exports may include:
 | Reliability under degradation | Performance change by severity | To be populated |
 | Selective prediction | Risk at different coverage levels | To be populated |
 
-## ⚙️ Getting started
+## Getting started
 
 Clone the project and install dependencies:
 
@@ -131,14 +131,14 @@ pip install -r requirements.txt
 
 **Execution:** Review command-line arguments and path assumptions in `src/preprocessing.py`, `src/model_training.py`, `src/eyeq_quality.py`, and `src/model_deployment.py` before running. After moving scripts, imports and relative paths may need updating. Exact run commands should be added only after they have been tested in the reorganized layout.
 
-## ⚠️ Limitations
+## Limitations
 
 - Model performance may vary across imaging devices, patient populations, and acquisition settings.
 - Image-quality assessment does not replace specialist review.
 - Predictive uncertainty is not a guarantee of correctness.
 - Clinical validation and external dataset testing are required before any real-world medical use.
 
-## 🔭 Future directions
+## Future directions
 
 - Further validation across image-quality groups and unseen datasets
 - Stronger calibration and selective-prediction analysis
